@@ -1,0 +1,40 @@
+
+body {
+    padding-top: 50px;
+}
+
+div {
+    height: 50px;
+    border: 1px solid red; 
+ }
+
+ li {
+    display: inline;
+}
+
+nav {
+    top: 0;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+}
+
+#logo {
+    width: 148px;
+}
+
+#banner {
+    width: 420px;
+    position: relative;
+    vertical-align: middle;
+    text-align: center;
+}
+
+ul.navList li a.bookbtn {
+    text-transform: uppercase;
+    background: 0 0;
+    color: #ff7322!important;
+    font-size: 1em;
+    font-weight: 700;
+    border: 2px solid #ff7322;
+}
